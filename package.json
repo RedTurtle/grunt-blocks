@@ -1,0 +1,34 @@
+{
+  "name": "grunt-blocks",
+  "version": "1.0.0",
+  "description": "Grunt configuration helper",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --emitDeclarationOnly && babel src --out-dir lib --extensions \".ts,.tsx\"",
+    "type-check": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedTurtle/grunt-blocks.git"
+  },
+  "keywords": [
+    "grunt",
+    "javascript",
+    "configuration",
+    "blocks"
+  ],
+  "author": "Piero Nicolli <piero.nicolli@redturtle.it>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RedTurtle/grunt-blocks/issues"
+  },
+  "homepage": "https://github.com/RedTurtle/grunt-blocks#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.49",
+    "@babel/core": "7.0.0-beta.49",
+    "@babel/preset-env": "7.0.0-beta.49",
+    "@babel/preset-typescript": "7.0.0-beta.49",
+    "typescript": "^2.9.1"
+  }
+}
