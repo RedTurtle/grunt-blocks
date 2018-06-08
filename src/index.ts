@@ -4,8 +4,8 @@ import flexbugs from 'postcss-flexbugs-fixes';
 
 export default {
   sass: {
-    options: () => ({
-      includePaths: ['./node_modules'],
+    options: (extraPaths: string[] = []) => ({
+      includePaths: ['./node_modules', ...extraPaths],
       sourceMap: true,
       outputStyle: 'expanded',
     }),
