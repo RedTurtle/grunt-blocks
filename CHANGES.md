@@ -1,5 +1,9 @@
 # grunt-blocks changelog
 
+## 1.1.2 (2018-06-20)
+
+- Fixed dependencies - @pnicolli
+
 ## 1.1.1 (2018-06-20)
 
 - Improved npm packaging - @pnicolli
