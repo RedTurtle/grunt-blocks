@@ -15,7 +15,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     sass: {
-      options: blocks.sass.options(),
+      options: blocks.sass.options(['./optional/sass/include/path']),
       main: blocks.sass.file('theme'),
       backend: blocks.sass.file('theme.backend'),
     },

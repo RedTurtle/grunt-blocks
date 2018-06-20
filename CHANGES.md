@@ -1,6 +1,6 @@
 # grunt-blocks changelog
 
-## 1.0.1 (unreleased)
+## 1.1.0 (2018-06-20)
 
 - Sass include path is now extensible - @pnicolli
 
