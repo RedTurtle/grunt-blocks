@@ -1,5 +1,9 @@
 # grunt-blocks changelog
 
+## 1.2.0 (2019-07-16)
+
+- Upgraded dependencies - @pnicolli
+
 ## 1.1.2 (2018-06-20)
 
 - Fixed dependencies - @pnicolli
