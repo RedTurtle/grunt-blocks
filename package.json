@@ -28,16 +28,16 @@
   },
   "homepage": "https://github.com/RedTurtle/grunt-blocks#readme",
   "devDependencies": {
-    "@babel/cli": "^7.0.0-beta.49",
-    "@babel/core": "7.0.0-beta.49",
-    "@babel/preset-env": "7.0.0-beta.49",
-    "@babel/preset-typescript": "7.0.0-beta.49",
-    "@types/autoprefixer": "^6.7.3",
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/autoprefixer": "^9.5.0",
     "typescript": "^2.9.1"
   },
   "dependencies": {
-    "autoprefixer": "^8.6.3",
-    "cssnano": "^3.10.0",
-    "postcss-flexbugs-fixes": "^3.3.1"
+    "autoprefixer": "^9.6.1",
+    "cssnano": "^4.1.10",
+    "postcss-flexbugs-fixes": "^4.1.0"
   }
 }
