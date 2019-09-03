@@ -1,5 +1,9 @@
 # grunt-blocks changelog
 
+## 2.0.0 (2019-09-03)
+
+- Changed deprecated `browsers` option for autoprefixer - @pnicolli
+
 ## 1.2.0 (2019-07-16)
 
 - Upgraded dependencies - @pnicolli

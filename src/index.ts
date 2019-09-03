@@ -25,7 +25,7 @@ export default {
         processors: [
           flexbugs,
           autoprefixer({
-            browsers: ['last 2 versions', 'ie >= 11', 'iOS >= 6'],
+            overrideBrowserslist: ['last 2 versions', 'ie >= 11', 'iOS >= 9'],
           }),
         ],
       },
