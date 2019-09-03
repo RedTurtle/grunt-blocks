@@ -1,6 +1,6 @@
 {
   "name": "@redturtle/grunt-blocks",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Grunt configuration helper",
   "main": "lib/index.js",
   "files": [
